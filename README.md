@@ -9,14 +9,14 @@ Ogni giocatore partirà da una posizione iniziale pari a zero e vincerà il prim
 I giocatori dovranno muoversi secondo i passi specifici dell’animale scelto di volta in volta.
 
 
-| Animali        | Passi                       |
-|-------------|--------------------------------|
-|ELEFANTE     |1 mt in avanti per passo        |
-|FORMICA      |10 cm in avanti per passo       |
-|CANGURO	    |40 cm in avanti per passo       |
-|GHIRO        |Rimane fermo                    |
-|GAMBERO      |20 cm indietro per passo        |
-|CAVALLO	    |50 cm in avanti per passo       |
+| Animali        | Passi                      |
+|-------------|----------------------------|
+|ELEFANTE     | 1 mt in avanti per passo   |
+|FORMICA      | 10 cm in avanti per passo  |
+|CANGURO	    | 40 cm in avanti per passo  |
+|GHIRO        | Rimane fermo               |
+|GAMBERO      | 20 cm indietro per passo   |
+|CAVALLO	    | 50 cm in avanti per passo  |
 
 
 # SUGGERIMENTI:
