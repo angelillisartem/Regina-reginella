@@ -9,14 +9,14 @@ Ogni giocatore partirà da una posizione iniziale pari a zero e vincerà il prim
 I giocatori dovranno muoversi secondo i passi specifici dell’animale scelto di volta in volta.
 
 
-| Animali        | Passi                              |
-|-------------|---------------------------------------|
-|ELEFANTE     |1 mt in avanti per passo               |
-|FORMICA      |10 cm in avanti per passo              |
-|CANGURO	    |40 cm in avanti per passo              |
-|GHIRO        |Rimane fermo                           |
-|GAMBERO      |20 cm indietro per passo               |
-|CAVALLO	    |50 cm in avanti per passo              |
+| Animali        | Passi                       |
+|-------------|--------------------------------|
+|ELEFANTE     |1 mt in avanti per passo        |
+|FORMICA      |10 cm in avanti per passo       |
+|CANGURO	    |40 cm in avanti per passo       |
+|GHIRO        |Rimane fermo                    |
+|GAMBERO      |20 cm indietro per passo        |
+|CAVALLO	    |50 cm in avanti per passo       |
 
 
 # SUGGERIMENTI:
@@ -25,5 +25,3 @@ Questo venga esplicitato al corretto livello di animale.
 Per i giocatori possiamo pensare di creare un Array di animali (da notare che a ogni passo l’animale cambia).
 Bisogna pensare bene come e dove registrare le posizioni del giocatore e i suoi progressi.
 Il gioco si conclude al raggiungimento da parte di un giocatore dei 10 mt.
-
-BUON LAVORO 
