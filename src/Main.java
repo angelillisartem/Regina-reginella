@@ -3,31 +3,31 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // Create a Scanner object for reading input from the user
+        // Creare un oggetto Scanner per leggere l'input dell'utente
         Scanner input = new Scanner(System.in);
 
-        // Create a Random object for generating random numbers
+        // Crea un oggetto Random per generare numeri casuali
         Random rand = new Random();
 
-        // Ask the user how many players are playing
-        System.out.println("How many players are playing?");
+        // Chiedi all'utente quanti giocatori stanno giocando
+        System.out.print("Quanti giocatori stanno giocando?: ");
         int numGiocatori = input.nextInt();
 
-        // Create an array of animals to choose from
-        String[] animali = {"cat", "dog", "bird", "snake", "tiger", "lion"};
+        // Crea una serie di animali tra cui scegliere
+        String[] animali = {"Elefante", "Formica", "Canguro", "Ghiro", "Gambero", "Cavallo"};
 
-        // Play the game for each player
+        // Gioca il gioco per ogni giocatore
         for (int giocatore = 1; giocatore <= numGiocatori; giocatore++) {
-            // Ask the player how many steps to take
-            System.out.println("Player " + giocatore + ", how many steps do you want to take?");
+            // Chiedi al giocatore quanti passi fare
+            System.out.println("Giocatore " + giocatore + ", quanti passi vuoi fare?");
             int passi = input.nextInt();
 
-            // Generate a random number of steps and animal
+            // Genera un numero casuale di passaggi e animali
             int numPassi = rand.nextInt(6) + 1;
             String animale = animali[rand.nextInt(animali.length)];
 
-            // Print the result
-            System.out.println("The queen says to take " + numPassi + " steps and meet a " + animale + ".");
+            // Stampa il risultato
+            System.out.println("La regina dice di prendere " + numPassi + " passi e incontrare a " + animale + ".");
         }
     }
 }
