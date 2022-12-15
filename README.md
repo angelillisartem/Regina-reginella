@@ -1,4 +1,5 @@
-Esercizio classe astratte | Regina reginella
+# Esercizio classe astratte | Regina reginella
+
 Modellizzazione e simulare il gioco di regina/reginella https://it.wikipedia.org/wiki/Regina_reginella
 
 Dopo aver stabilito il numero dei giocatori, ognuno chiederà al proprio turno alla regina quanti passi fare. Questa ( simulata tramite una doppia estrazione random) risponderà con il numero di passi e quale animale.
