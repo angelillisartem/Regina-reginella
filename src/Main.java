@@ -19,7 +19,7 @@ public class Main {
         // Gioca il gioco per ogni giocatore
         for (int giocatore = 1; giocatore <= numGiocatori; giocatore++) {
             // Chiedi al giocatore quanti passi fare
-            System.out.println("Giocatore " + giocatore + ", quanti passi vuoi fare?");
+            System.out.print("Giocatore " + giocatore + ", quanti passi vuoi fare?: ");
             int passi = input.nextInt();
 
             // Genera un numero casuale di passaggi e animali
@@ -27,7 +27,7 @@ public class Main {
             String animale = animali[rand.nextInt(animali.length)];
 
             // Stampa il risultato
-            System.out.println("La regina dice di prendere " + numPassi + " passi e incontrare a " + animale + ".");
+            System.out.print("La regina dice di prendere " + numPassi + " passi e incontrare a " + animale + ".");
         }
     }
 }
